@@ -1,0 +1,27 @@
+
+
+
+#background-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.navbar {
+    z-index: 99;
+}
+
+
+.container-fluid {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 25vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
