@@ -1,29 +1,23 @@
 
-
+* {
+    margin: 0;
+}
 
 #background-img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .navbar {
     z-index: 99;
 }
 
-/*  CAN'T GET NAV BAR TO BE STICKY
-
-#stickynav {
-    position: sticky; 
-    top: 0; 
-} */
-
 
 .container-fluid {
     position: relative;
     text-align: center;
 }
+
 
 .text-overlay {
     position: absolute;
@@ -40,6 +34,6 @@
 }
 
 .carousel {
-    position: relative;
-    top: 300px;
+    margin-bottom: 15px;
 }
+
