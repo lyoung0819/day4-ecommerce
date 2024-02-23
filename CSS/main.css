@@ -12,6 +12,13 @@
     z-index: 99;
 }
 
+/*  CAN'T GET NAV BAR TO BE STICKY
+
+#stickynav {
+    position: sticky; 
+    top: 0; 
+} */
+
 
 .container-fluid {
     position: relative;
@@ -23,4 +30,16 @@
     top: 25vh;
     left: 50vw;
     transform: translate(-50%, -50%);
+}
+
+#carouselExample {
+    max-width: 40vw;
+    max-height: auto;
+    position: absolute;
+    left: 30vw;
+}
+
+.carousel {
+    position: relative;
+    top: 300px;
 }
