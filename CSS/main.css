@@ -4,6 +4,7 @@
 }
 
 #background-img {
+    min-width: 100%;
     display: block;
     margin-bottom: 10px;
 }
@@ -27,13 +28,12 @@
 }
 
 #carouselExample {
-    max-width: 40vw;
-    max-height: auto;
     position: absolute;
-    left: 30vw;
-}
-
-.carousel {
+    left: 0vw;
     margin-bottom: 15px;
 }
 
+.links {
+    text-decoration: none;
+    color: black;
+}
